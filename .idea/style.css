@@ -71,8 +71,9 @@ header ul li a
     background: url("dark-corporation.jpg");
     background-size: cover;
 }
-header .stcky .logo
+header .sticky .logo,
 header .sticky ul li a
 {
     color: #000;
 }
+

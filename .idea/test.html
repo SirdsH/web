@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link rel="stylesheet" href="test.css">
+    <script src="test.js"></script>
+</head>
+<body>
+<div class="header">the header</div>
+<script type="text/javascript">window.addEventListener("scroll", function (){
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+})</script>
+</body>
+</html>

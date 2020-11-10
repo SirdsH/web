@@ -1,0 +1,30 @@
+* {margin:0;padding:0}
+
+html {
+    background: lightgray;
+    height: 5000px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    z-index: 10000;
+    transition: all 1s ease-in-out;
+    height: auto;
+    background-color: rgba(17, 42, 107, 0.7);
+    text-align: center;
+    line-height: 40px;
+}
+
+header .sticky {
+    padding: 5px 100px;
+    background: #fff;
+}
+header .sticky .logo,
+header .sticky ul li a
+{
+    color: #000;
+}
